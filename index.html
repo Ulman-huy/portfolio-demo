@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <link rel="icon" href="https://img.icons8.com/nolan/64/spa-flower.png" type="image/icon type">
+    <title>My Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="aside">
+            <div class="aside-logo">
+                <div class="logo">
+                    <span>A</span>tlas
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="navbar">
+                    <li class="navbar-item active">
+                        <a href="#" class="navbar-item-link">
+                            <i class="fas fa-home navbar-icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            <i class="fas fa-user navbar-icon"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            <i class="fas fa-list navbar-icon"></i>
+                            Service
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            <i class="fas fa-briefcase navbar-icon"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-item-link">
+                            <i class="fas fa-comments navbar-icon"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="setting">
+                <div>
+                    <div class="theme-color">
+                        <div class="theme-color-icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                    <div class="light">
+                        <div class="light-icon">
+                            <div class="sun-icon"><i class="fa-solid fa-sun"></i></div>
+                            <div class="moon-icon hidden"><i class="fa-solid fa-moon"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-color hidden">
+                    <p class="table-color-text">
+                        Theme Colors
+                    </p>
+                    <div class="color">
+                        <div class="color-item color-red"></div>
+                        <div class="color-item color-orange"></div>
+                        <div class="color-item color-green"></div>
+                        <div class="color-item color-blue"></div>
+                        <div class="color-item color-pink"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item active">
+                <div class="home">
+                    <div class="info">
+                        <h2 class="info-name">
+                           Hello, my name is <span>5th, Androssi </span>
+                        </h2>
+                        <p class="info-work">
+                            I'm a <span>Web Developer</span>
+                        </p>
+                        <p class="info-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus voluptatum eum quasi dolor ducimus consequuntur, illum dicta! Modi, eius? Quasi perferendis non in quia dignissimos, eligendi deleniti neque sit!
+                        </p>
+                        <button class="button info-button">
+                            More About me
+                        </button>
+                    </div>
+                    <div class="avatar">
+                        <div class="pseudo">
+                            <img src="./assets/img/0tHWGTD.jpeg" alt="Avatar" class="info-avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="about">
+                    <h1 class="about-heading">About Me</h1>
+                    <p class="about-work">I'm 5th Androssi and <span>Web Developer</span></p>
+                    <p class="about-work-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim asperiores quas sint nemo ea laborum voluptatum! Impedit officia placeat accusamus exercitationem alias odit nobis amet mollitia commodi! Rerum, quis!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quae earum quasi consectetur aut. Expedita, beatae! Corrupti sed ratione laborum sequi alias suscipit dignissimos, commodi architecto accusamus non odit vitae?
+                    </p>
+                    <div class="about-introduce">
+                        <div class="about-introduce-info">
+                            <p><span class="bold-700">Birthday :</span><span> 5 January 2001</span></p>
+                            <p><span class="bold-700">Website :</span><span> www.domain.com</span></p>
+                            <p><span class="bold-700">Degree :</span><span> CS</span></p>
+                            <p><span class="bold-700">City :</span><span> Ha noi</span></p>
+                            <p><span class="bold-700">Age: </span><span> 21</span></p>
+                            <p><span class="bold-700">Email :</span><span> info@gmail.com</span></p>
+                            <p><span class="bold-700">Phone :</span><span> + 84 000 000 000</span></p>
+                            <p><span class="bold-700">Freelance :</span><span> Available</span></p>
+                            <div class="CV">
+                                <button class="button-p32">Download CV</button>
+                                <button class="button-p32">Hire Me</button>
+                            </div>
+                        </div>  
+                        <div class="about-introduce-skill">
+                            <p class="bold-700">HTML</p>
+                            <div class="skill-percent" style="--i: 80%"></div>
+                            <p class="bold-700">CSS</p>
+                            <div class="skill-percent" style="--i: 70%"></div>
+                            <p class="bold-700">JS</p>
+                            <div class="skill-percent" style="--i: 69%"></div>
+                            <p class="bold-700">ReactJS</p>
+                            <div class="skill-percent" style="--i: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="about-education">
+                        <div class="about-education-layout">
+                            <h3>Education</h3>
+                            <div class="about-education-exp">
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-education-layout">
+                            <h3>Experience</h3>
+                            <div class="about-education-exp">
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                                <div class="education-exp-years">
+                                    <div class="education-exp-years-icon bold-600">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        <span>2013 - 2015</span>
+                                    </div>
+                                    <div class="education-exp-heading">
+                                        Master In Computer Science
+                                    </div>
+                                    <div class="education-exp-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab blanditiis eius corrupti similique pariatur cumque, consectetur et amet sapiente voluptatibus consequuntur at natus iste deleniti ratione ipsam saepe aliquid error.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="service">
+                    <h1 class="service-heading">Service</h1>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                            <div class="service-item-heading">
+                                Web Design
+                            </div>
+                            <div class="service-item-desc">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum impedit molestiae voluptatibus harum magnam maiores et maxime.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="portfolio">
+                    <h1 class="portfolio-heading">Portfolio</h1>
+                    <p class="portfolio-text">My Last Projects:</p>
+                    <div class="portfolio-list">
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-1065654.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-1080043.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-1109233.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-729731.jpeg);"></div>
+                            </a>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-740341.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="portfolio-item">
+                            <a href="https://fullstack.edu.vn/" class="portfolio-item-link" target="_blank">
+                                <div class="portfolio-item-img" style="background-image: url(./assets/img/thumbbig-403534.jpg);"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="contact">
+                    <h1 class="contact-heading">Contact</h1>
+                    <h3 class="contact-heading-sub">Have You Any Questions ?</h3>
+                    <p class="contact-heading-text">I'M AT YOU SERVICE</p>
+
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fa-solid fa-phone-flip"></i>
+                            </div>
+                            <div class="contact-item-method">
+                                Call Us On
+                            </div>
+                            <div class="contact-item-text">
+                                +84 000 000 000
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-item-method">
+                                Office
+                            </div>
+                            <div class="contact-item-text">
+                                Ha Noi
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-item-method">
+                                Email
+                            </div>
+                            <div class="contact-item-text">
+                                info@gmail.com
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </div>
+                            <div class="contact-item-method">
+                                Website
+                            </div>
+                            <div class="contact-item-text">
+                                www.domain.com
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="contact-heading-sub">SEND ME AN EMAIL</h3>
+                    <p class="contact-heading-text">I'M VERY RESPONSIVE TO MESSAGE</p>
+
+                    <div class="contact-mail">
+                        <div class="contact-mail-name-email">
+                            <div class="contact-mail-name">
+                                <input class="input contact-mail-input" type="text" placeholder="Name">
+                            </div>
+                            <div class="contact-mail-email">
+                                <input class="input contact-mail-input" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="contact-mail-subject">
+                            <input class="input contact-mail-input" type="text" placeholder="Subject">
+                        </div>
+                        <textarea name="message" class="input contact-mail-input" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        <div class="contact-mail-send">
+                            <button class="button">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                    <div style="height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
